@@ -55,3 +55,28 @@ const heros = ["shaktiman" , " nagraj", " benTen"  ]
 //        Function  =>  function
 //        Object  =>  object
 
+//+++++++++++++++++++++++++++++++++++++++++++
+
+//stack ( primitive),   Heap( Non - primitive) 
+
+
+let myYoutubename = "sujanpaldotcom"
+let anothername = myYoutubename
+anothername = "GoodWay"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userone={
+    email : "user@google.com",
+    upi:"user@ybl"
+}
+let usertwo = userone
+
+usertwo.email = "sujan@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
