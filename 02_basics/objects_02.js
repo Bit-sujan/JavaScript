@@ -6,7 +6,7 @@ dateUser.id = "5635368"
 dateUser.name = "sunny"
 dateUser.isLoggedIn = false
 
-//console.log(dateUser);
+console.log(dateUser);
 
 const regularUser = {
     email : "nothing@gmail.com",
@@ -17,7 +17,7 @@ const regularUser = {
         }
     }
 }
-//console.log(regularUser.fullname);
+console.log(regularUser.fullname);
 
 
 const obj1 = { 1 : "a", 2 : "b"}
@@ -51,12 +51,12 @@ const userss = [
     },
 ]
 
-user[1].email
-console.log(user);
+userss[1].email
+//console.log(user);
 
-console.log(Object.keys(user)); // allkey values mearge in a single array.
-console.log(Object.values(user));// same as above with values
-console.log(Object.entries(user));// key and values ar  in a single array.
+console.log(Object.keys(dateUser)); // allkey values mearge in a single array.
+console.log(Object.values(dateUser));// same as above with values
+console.log(Object.entries(dateUser));// key and values ar  in a single array.
 
-console.log(user.hasOwnProperty('isLoggedIn'));
+console.log(dateUser.hasOwnProperty('isLoggedIn'));
 
