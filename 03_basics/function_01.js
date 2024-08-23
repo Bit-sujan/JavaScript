@@ -39,3 +39,44 @@ function username(user ="ram"){
 
 }
 console.log(username("sujan")) // its can override the previous value
+
+
+function CartPrice(...num1){    //   ...  > rest operator for this use case
+    return num1
+
+}
+console.log(CartPrice(200,555,433,299));  // output display in the array form.
+
+function CartPrice1(value1, value2, ...num3){    
+    return num3
+
+}
+console.log(CartPrice1(524,245,586,555,5554,852));
+
+const user11 = {
+    username11 : "sujan",
+    id44 : 748425424
+
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.user11} and price is ${anyobject.id44} `);
+    
+}
+handleobject(user11)
+// handleobject(
+//     {
+//        username12 : "sam",
+//        id1 : 233 
+//     }
+// )
+
+
+const myarray = [ 200,400,555,456]
+function returnvalue(getArray){
+    return getArray[2]
+}
+
+console.log(returnvalue(myarray));
+
+
